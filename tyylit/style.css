@@ -1,3 +1,9 @@
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    width: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -28,24 +34,16 @@ button {
     font-size: medium;
 }
 
-table {
-    border-collapse: separate;
-    border-spacing: 20px;
-    width: 100%;
-}
-
-table, th, td {
+table, th {
     width: 220px;
 }
 
 th, td {
     padding: 7px 10px;
     border-radius: 7px;
-    text-align: center;
     margin: 5px;
     background-color: lightgoldenrodyellow;
     border: solid;
-    margin: 1px left;
 }
 
 p {
@@ -55,6 +53,7 @@ p {
 
 td {
     border-width: 1px;
+    vertical-align: middle;
 }
 
 
